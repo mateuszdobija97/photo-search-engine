@@ -1,0 +1,39 @@
+.default-searchbar {
+  height: 50px;
+  margin-bottom: 3px;
+  overflow: hidden;
+}
+
+.default-searchbar i {
+  width: 5%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+}
+
+.default-searchbar input {
+  width: 90%;
+  height: 50px;
+  line-height: 50px;
+  outline: none;
+  border-style: none;
+  padding: 5px 10px;
+}
+
+button {
+  width: 5%;
+  height: 50px;
+  border-style: none;
+  line-height: 50px;
+  text-align: center;
+  outline: none;
+  overflow: hidden;
+}
+
+.default-searchbar button:hover {
+  cursor: pointer;
+  color: black;
+  font-size: 1.2em;
+}

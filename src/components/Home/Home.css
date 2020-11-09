@@ -1,0 +1,87 @@
+.home {
+  height: 100vh;
+  background: url("../../img/bgc.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+}
+
+.home-content {
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  top: 30%;
+  padding: 10px;
+}
+
+.home-title {
+  font-size: 40px;
+  padding: 10px 5px;
+}
+
+.home-description {
+  padding: 10px 5px 20px;
+}
+
+.home-description p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.home-searchbar-wrapper {
+  padding: 10px 5px;
+}
+
+.home-searchbar-input input {
+  font-size: 16px;
+}
+
+.home-searchbar-input button {
+  color: rgba(0, 0, 0, 0.7);
+  background-color: #fff;
+}
+
+.home-searchbar-suggestions ul {
+  list-style: none;
+}
+
+.home-searchbar-suggestions li {
+  width: 100%;
+  color: black;
+  font-size: 16px;
+  padding: 3px 10px;
+  background-color: #fff;
+}
+
+li a {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+li a:hover {
+  color: black;
+}
+
+.home-searchbar-suggestions li:hover {
+  cursor: pointer;
+  background-color: #eee;
+}
+
+.home-footer {
+  padding: 10px 5px;
+}
+
+.search-not-found {
+  width: 50%;
+  margin-top: 5px;
+  padding-top: 5px;
+  background-color: rgb(194, 25, 25);
+  border-radius: 5px;
+}
+
+.search-not-found p {
+  font-size: 14px;
+  padding: 5px 10px;
+  font-weight: bold;
+}
